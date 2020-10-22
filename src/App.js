@@ -16,7 +16,7 @@ function App() {
 		// if its black inside [], this code runs ONCE when the app component loads.
 		// const name = prompt("Please enter your name");
 		setUsername(prompt("Please enter your name"));
-	}, []); // condition here.
+	}, []); // condition here..
 
 	const sendMessage = (event) => {
 		// all the logic to send a message goes here
